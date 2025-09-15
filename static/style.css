@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form-container, .game-container {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.message {
+    color: blue;
+    font-weight: bold;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    overflow: hidden;
+    border: 3px solid #333;
+    border-radius: 10px;
+    background-color: #222;
+}
+
+.slot-reel {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+    transition: transform 2s ease-out;
+}
+
+.slot-reel div {
+    height: 60px;
+}
+
+.logout-link {
+    margin-top: 20px;
+}
