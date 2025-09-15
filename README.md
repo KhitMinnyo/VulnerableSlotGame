@@ -20,8 +20,8 @@ The main goal of this project is to provide a hands-on lab environment for learn
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/vulnerable-slot-game.git](https://github.com/your-username/vulnerable-slot-game.git)
-    cd vulnerable-slot-game
+    git clone [VulnerableSlotGame](https://github.com/KhitMinnyo/VulnerableSlotGame.git
+    cd VulnerableSlotGame
     ```
 
 2.  **Install dependencies:**
