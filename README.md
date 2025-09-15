@@ -20,7 +20,7 @@ The main goal of this project is to provide a hands-on lab environment for learn
 
 1.  **Clone the repository:**
     ```bash
-    git clone [VulnerableSlotGame](https://github.com/KhitMinnyo/VulnerableSlotGame.git
+    git clone https://github.com/KhitMinnyo/VulnerableSlotGame.git
     cd VulnerableSlotGame
     ```
 
